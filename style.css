@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background: #333;
+    color: #0b16e8;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.memento {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li {
+    margin-left: 1rem;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.memento {
+    background-color: #05c739;
+    color: #727272;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.services {
+    padding: 2rem;
+    text-align: center;
+}
+
+.service-item {
+    background-color: #f4f4f4;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.portfolio-gallery {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.portfolio-gallery img {
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+.team-member {
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+}
+
+.team-member img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.layout {
+    width: 1600px;
+height: 600px;
+top: 80px;
+gap: 0px;
+opacity: 0px;
+
+}
